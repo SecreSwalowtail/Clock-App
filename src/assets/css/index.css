@@ -1,0 +1,97 @@
+@font-face {
+    font-family: "Inter";
+    src: url("../fonts/Inter.ttf") format("truetype");
+}
+
+body {
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: red;
+    font-family: "Inter";
+}
+
+/* ------------------------ */
+
+.quote {
+    padding-top: 31.67px;
+    padding-left: 26px;
+    padding-right: 25px;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 16.67px;
+}
+
+.quote-text {
+    color: white;
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: 400;
+}
+
+.quote-author {
+    padding-top: 8px;
+    color: white;
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: 700;
+}
+
+.refresh-button {
+    align-items: flex-end;
+}
+
+/* ------------------------ */
+
+.container-time {
+    margin-top: 226px;
+    margin-left: 26px;
+    margin-right: 41px;
+}
+
+.container-greeting {
+    display: flex;
+    gap: 16.66px;
+}
+
+.container-text {
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    line-height: 25px;
+}
+
+.time {
+    display: flex;
+    align-items: baseline;
+}
+
+.time h1 {
+    font-size: 100px;
+    letter-spacing: -2.5px;
+    line-height: 100px;
+    font-weight: 700;
+    color: white;
+
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+
+.time p {
+    font-size: 15px;
+    line-height: 28px;
+    font-weight: 300;
+    color: white;
+    padding-left: 13px;
+}
+
+.container-city p {
+    font-size: 15px;
+    line-height: 28px;
+    letter-spacing: 3px;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+}
