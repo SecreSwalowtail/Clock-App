@@ -6,4 +6,10 @@ function parseTime(time) {
     return result
 }
 
+function returnMiliseconds(time) {
+    const date = new Date(time)
+    const seconds = date.getSeconds()
+    return seconds * 1000
+}
+
 export default parseTime
